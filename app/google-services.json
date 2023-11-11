@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39363287656",
+    "project_id": "fir-connection-pamfa4tap",
+    "storage_bucket": "fir-connection-pamfa4tap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39363287656:android:3bdabfcfe23c739493f9dd",
+        "android_client_info": {
+          "package_name": "com.example.facebook_copy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-BhAprk04yxxfqdQ4KtH1jNFD7Eluu3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

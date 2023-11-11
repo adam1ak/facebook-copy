@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameRegister"
+    android:background="#10202f">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nam_next_button"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/butloginshape"
+        android:fontFamily="sans-serif-medium"
+        android:text="Dalej"
+        android:textAllCaps="false"
+        android:textColor="#F6F6F6"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <ImageView
+        android:id="@+id/back_to_main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif"
+        android:text="Jak się nazywasz?"
+        android:textColor="#F6F6F6"
+        android:textFontWeight="600"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif"
+        android:text="Wprowadź imię i nazwisko, których używasz na co \ndzień."
+        android:textColor="#F6F6F6"
+        android:textFontWeight="500"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/empty_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305">
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inputshape"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Imię"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="#878787"
+            android:textColorHint="#878787"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/surname_input"
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inputshape"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Nazwisko"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="#878787"
+            android:textColorHint="#878787"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">facebook-copy</string>
+    <string name="birthday_note">
+        Wybierz datę urodzin. Możesz ustawić ją\n
+        póżniej jako prywatną.<font color="#327ec4"> Dlaczego mam podawać datę\n
+        swoich urodzin?
+    </font>
+    </string>
+    <string name="gender_note">
+        Widoczność swojej płci w profilu możesz zmienić\n
+        później
+    </string>
+    <string name="email_note">
+        Podaj adres e-mail,pod którym można się z Tobą\n
+        skontaktować. Nie będzie on widoczny w Twoim\n
+        profilu.
+    </string>
+    <string name="password_note">
+        Utwórz hasło zawierające co najmniej 6 liter i cyfr.\n
+        Powinno być niemożliwe do odgadnięcia dla innych\n
+        osób
+    </string>
+    <string name="pfp_note">
+        Wybór zdjęcia profilowego jest opcjonalny aczkolwiek\nułatwia identyfikację i budowę relacji, co jest istotne w społeczności online.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
